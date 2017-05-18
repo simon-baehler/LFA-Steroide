@@ -7,10 +7,10 @@
 */
 
 // Experiment name appearing in the logs
-experimentName = "mlbd2017size";
+experimentName = "LFA_BMI_2017size";
 
 // Directory where logs, fuzzy systems and temporary files are saved
-savePath = "/home/mlbd/Desktop/mileRsltSize/";
+savePath = "/home/mlbd/Desktop/LFA-Steroide/logs/size/";
 
 // Fuzzy system parameters 
 fixedVars = false;

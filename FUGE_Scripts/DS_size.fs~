@@ -7,10 +7,10 @@
 */
 
 // Experiment name appearing in the logs
-experimentName = "LFA_BMI_2017snespe";
+experimentName = "mlbd2017size";
 
 // Directory where logs, fuzzy systems and temporary files are saved
-savePath = "/home/mlbd/Desktop/LFA-Steroide/logs/SenSpe/";
+savePath = "/home/mlbd/Desktop/LFA-Steroide/logs/size/";
 
 // Fuzzy system parameters 
 fixedVars = false;
@@ -79,9 +79,6 @@ function doRun()
 	var nMaxVarPRule = [nbMaxVarPerRule];
 	var alphaValues = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0];
 	var qtyExp = 10;
-	rmseW = 1.0;
-	// Change here 	
-	dontCareW = 0.4;
 
 	// Multiple coevolution runs with different parameters
 	for (var i = 0; i < nbGens.length; i++) {
@@ -90,8 +87,7 @@ function doRun()
 				for (var l = 0; l < nMaxVarPRule.length; l++) {
 					for (m = 0; m < alphaValues.length; m++)
 					{
-						sensitivityW = 1-alphaValues[m];
-						specificityW = alphaValues[m];
+						dontCareW = alphaValues[m];
 						for (var n = 0; n < qtyExp; n++) {
 							maxGenPop1 = nbGens[i]
 							popSizePop1 = pop1Vals[j];

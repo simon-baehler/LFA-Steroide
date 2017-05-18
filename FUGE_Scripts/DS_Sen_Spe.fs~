@@ -7,7 +7,7 @@
 */
 
 // Experiment name appearing in the logs
-experimentName = "LFA_BMI_2017snespe";
+experimentName = "mlbd2017snespe";
 
 // Directory where logs, fuzzy systems and temporary files are saved
 savePath = "/home/mlbd/Desktop/LFA-Steroide/logs/SenSpe/";
