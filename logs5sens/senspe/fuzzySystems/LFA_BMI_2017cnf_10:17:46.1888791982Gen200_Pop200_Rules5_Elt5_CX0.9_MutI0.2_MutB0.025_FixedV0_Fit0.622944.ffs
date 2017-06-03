@@ -1,0 +1,262 @@
+<!DOCTYPE FUGE-LC_fuzzy_system_file>
+<Fuzzy_System>
+ <Dataset_name>/home/mlbd/Desktop/LFA-Projet/LFA-Steroide/df_class_train.csv</Dataset_name>
+ <Fitness>
+  <Value>0.622944</Value>
+  <SensiW>1</SensiW>
+  <SpeciW>1</SpeciW>
+  <AccuW>0</AccuW>
+  <PPVW>0</PPVW>
+  <RMSEW>0</RMSEW>
+  <RRSEW>0</RRSEW>
+  <RAEW>0</RAEW>
+  <MSEW>0</MSEW>
+  <ADMW>0</ADMW>
+  <MDMW>0</MDMW>
+  <SizeW>0</SizeW>
+  <OverLearnW>0</OverLearnW>
+  <Threshold>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+  </Threshold>
+ </Fitness>
+ <Variables>
+  <Variable_in>
+   <Name>ccr_s_ad_17b_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>33.8634</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>36.2557</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>116.398</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_dha_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0.3668</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>350.246</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>469.941</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_l8_oh_tha_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>32.8888</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>38.8475</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>174.407</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_sa_thf_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>39.3531</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>172.697</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>496.531</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_a_cortolone_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>84.7511</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>108.684</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>611.276</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_b_cortolone_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>107.568</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>107.568</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>307.984</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_ll_oxo_etio_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>31.9962</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>44.9145</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>90.7156</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_zob_dhe_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>5.22279</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>7.64807</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>12.822</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_out>
+   <Name>1_SousPoid</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>2_Normal</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>3_Surpoid</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>4_Obese</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>5_ExtremeObese</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+ </Variables>
+ <Rules>
+  <Rule>
+   <In_Var>ccr_b_cortolone_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <In_Var>ccr_s_ad_17b_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <Out_Var>4_Obese</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>3_Surpoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_l8_oh_tha_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <In_Var>ccr_zob_dhe_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <Out_Var>4_Obese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>3_Surpoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_a_cortolone_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <Out_Var>5_ExtremeObese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>1_SousPoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_dha_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <In_Var>ccr_sa_thf_d</In_Var>
+   <In_Set>MF 1</In_Set>
+   <Out_Var>3_Surpoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_ll_oxo_etio_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>4_Obese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Default_Rules>
+   <Default_Rule>0</Default_Rule>
+   <Default_Rule>0</Default_Rule>
+   <Default_Rule>0</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+  </Default_Rules>
+ </Rules>
+</Fuzzy_System>

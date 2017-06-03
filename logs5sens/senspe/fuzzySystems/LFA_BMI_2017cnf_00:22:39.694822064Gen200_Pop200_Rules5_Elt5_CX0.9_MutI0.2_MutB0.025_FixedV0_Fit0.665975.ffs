@@ -1,0 +1,255 @@
+<!DOCTYPE FUGE-LC_fuzzy_system_file>
+<Fuzzy_System>
+ <Dataset_name>/home/mlbd/Desktop/LFA-Projet/LFA-Steroide/df_class_train.csv</Dataset_name>
+ <Fitness>
+  <Value>0.665975</Value>
+  <SensiW>0.8</SensiW>
+  <SpeciW>0.8</SpeciW>
+  <AccuW>0</AccuW>
+  <PPVW>0</PPVW>
+  <RMSEW>1</RMSEW>
+  <RRSEW>0</RRSEW>
+  <RAEW>0</RAEW>
+  <MSEW>0</MSEW>
+  <ADMW>0</ADMW>
+  <MDMW>0</MDMW>
+  <SizeW>0</SizeW>
+  <OverLearnW>0</OverLearnW>
+  <Threshold>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+   <Thresh>0.5</Thresh>
+  </Threshold>
+ </Fitness>
+ <Variables>
+  <Variable_in>
+   <Name>ccr_thaldo_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>39.0447</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>40.7413</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>50.9211</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_thdoc_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0.224505</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>0.360508</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>1.10852</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_pt_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>59.4299</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>378.051</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>564.671</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_cortisol_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>71.8942</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>78.0702</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>80.815</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_a_cortol_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>39.7806</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>257.311</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>320.642</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_cortisone_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>3.89182</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>10.103</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>54.6166</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_in>
+   <Name>ccr_a_cortolone_d</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>72.7846</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>96.7176</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 2</Set_name>
+    <Set_position>330.064</Set_position>
+   </Set>
+  </Variable_in>
+  <Variable_out>
+   <Name>1_SousPoid</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>2_Normal</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>3_Surpoid</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>4_Obese</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+  </Variable_out>
+  <Variable_out>
+   <Name>5_ExtremeObese</Name>
+   <Set>
+    <Set_name>MF 0</Set_name>
+    <Set_position>0</Set_position>
+   </Set>
+   <Set>
+    <Set_name>MF 1</Set_name>
+    <Set_position>1</Set_position>
+   </Set>
+  </Variable_out>
+ </Variables>
+ <Rules>
+  <Rule>
+   <In_Var>ccr_cortisone_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <In_Var>ccr_thdoc_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <In_Var>ccr_cortisol_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <In_Var>ccr_a_cortolone_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <Out_Var>4_Obese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>5_ExtremeObese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>1_SousPoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_cortisol_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <Out_Var>5_ExtremeObese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_pt_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <Out_Var>3_Surpoid</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>4_Obese</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_thaldo_d</In_Var>
+   <In_Set>MF 0</In_Set>
+   <In_Var>ccr_a_cortol_d</In_Var>
+   <In_Set>MF 1</In_Set>
+   <Out_Var>5_ExtremeObese</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>1_SousPoid</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Rule>
+   <In_Var>ccr_a_cortolone_d</In_Var>
+   <In_Set>MF 2</In_Set>
+   <Out_Var>5_ExtremeObese</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>3_Surpoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>1_SousPoid</Out_Var>
+   <Out_Set>MF 1</Out_Set>
+   <Out_Var>2_Normal</Out_Var>
+   <Out_Set>MF 0</Out_Set>
+  </Rule>
+  <Default_Rules>
+   <Default_Rule>0</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+   <Default_Rule>1</Default_Rule>
+  </Default_Rules>
+ </Rules>
+</Fuzzy_System>
